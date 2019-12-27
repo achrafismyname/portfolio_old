@@ -1,0 +1,51 @@
+#task-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 44px;
+    background: #000000e8;
+    color: #fffeee;
+    display: flex;
+    button.start {
+        height: 100%;
+        display: flex;
+        color: #fff;
+        font-size: 18px;
+        background: #00000000;
+        & > * {
+            margin: auto;
+            padding: 0 14px;
+            &:hover {
+                color: #00bcd4;
+            }
+        }
+        &:hover {
+            background: #ffffff0f;
+        }
+    }
+
+    .cortana-search {
+        background: rgb(241, 241, 241);
+        height: 100%;
+        width: 360px;
+        display: flex;
+        color: #000000;
+        & > * {
+            margin: auto 3px;
+        }
+        i {
+            font-size: 18px;
+            padding: 0 11px;
+        }
+        input {
+            flex: 1;
+            height: 100%;
+            padding: 0;
+        }
+        ::placeholder {
+            color: #000000e8;
+        }
+
+    }
+}
