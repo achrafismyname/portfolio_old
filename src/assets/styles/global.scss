@@ -2,10 +2,12 @@ body {
     overflow: hidden;
 }
 
-button, input {
+button, input, ul, li {
     background: none;
     border: none;
     outline: none;
+    padding: 0;
+    margin: 0;
 }
 
 body {
