@@ -1,0 +1,11 @@
+@keyframes widthFromZero {
+    from {
+        width: 0;
+    }
+    to {
+    }
+}
+
+.progressBarAnimate {
+    animation: widthFromZero 3s;
+}
